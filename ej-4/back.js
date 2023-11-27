@@ -3,7 +3,6 @@
 function typeOfAnimal(){
     // Obtener los datos del formulario
     var animals = document.getElementById("animals").value;
-    console.log('estoy recibiendo un nombre '+ animals);
     
     var result;
  if (animals == 'fish'){
@@ -17,7 +16,6 @@ function typeOfAnimal(){
  }else if(animals == 'mammals'){
     result = "Caballo, la oveja o el elefante; carnívoros";
  }
- console.log('Animales como: '+ result);
     // Mostrar el resultado en la página
     document.getElementById("result").innerText = "Tipos de animales: " + result;
 }
