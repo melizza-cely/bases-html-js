@@ -1,1 +1,39 @@
-<h1>Hola mundo</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona Mes</title>
+</head>
+<body>
+    <h1>Seleccione el mes: </h1>
+    <form id="calculatorForm">
+        
+        <br>
+        <label for="month">Mes:</label>
+        <select id="month" name="month" required>
+            <option value="uno">1</option>
+            <option value="dos">2</option>
+            <option value="tres">3</option>
+            <option value="cuatro">4</option>
+            <option value="cinco">5</option>
+            <option value="seis">6</option>
+            <option value="siete">7</option>
+            <option value="ocho">8</option>
+            <option value="nueve">9</option>
+            <option value="diez">10</option>
+            <option value="once">11</option>
+            <option value="doce">12</option>
+
+        </select>
+        
+        <br>
+
+        <button type="button" onclick="calculate()">Calcular</button>
+    </form>
+
+    <p id="result">Resultado: </p>
+
+    <script src="back.js"></script>
+</body>
+</html>
