@@ -4,8 +4,7 @@ function calculate() {
     // Obtener los datos del formulario
 
     var mes = document.getElementById("month").value;
-    //var num2 = parseFloat(document.getElementById("num2").val
-    console.log(mes);
+    
 
     // Realizar la operación
     var result;
