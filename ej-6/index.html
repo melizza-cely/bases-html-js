@@ -1,0 +1,37 @@
+<!-- Comprar entradas que pida la edad 
+ un campo en un check box pregunte si tiene carro 
+si es mayor de 18 y tiene carro responda esta ok y si es menor de 18 y tiene carro mensaje de "no tiene edad para tener carro" -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entradas</title>
+</head>
+<body>
+    <h1>Comprar Entradas: </h1>
+    <form id="calculatorForm">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad" required>
+        <br>
+        <label for="car">Tiene Carro: </label>
+       <!-- <input type="text" id="nombre" name="nombre" required> -->
+       <br>
+        
+        <label for="yes">Si: </label>
+        <input type="checkbox" id="car" name="car" value="Si">
+        
+
+<br>
+        <button type="button" onclick="calculate()">Continuar</button>
+    
+    </form>
+
+    <p id="result">Resultado: </p>
+
+    <script src="back.js"></script>
+</body>
+</html>
+   
