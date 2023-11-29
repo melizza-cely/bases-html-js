@@ -3,7 +3,7 @@ function calcularPrecio() {
    var tipoVisitante = document.querySelector('input[name="tipoVisitante"]:checked').value;
 
    var precioBase;
-   if (edad > 18) {
+   if (edad >= 18) {
        precioBase = 20000; // Precio para mayores de 18 años
    } else {
        precioBase = 10000; // Precio para menores de 18 años
