@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar entradas a Guatavita</title>
+</head>
+<body>
+    <h1>Bienvenidos - Comprar entradas a Guatavita</h1>
+    <form id="entradasForm">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+        <label>Tipo de Visitante:</label><br>
+        <input type="radio" name="tipoVisitante" value="nacional" required> Nacional
+        <input type="radio" name="tipoVisitante" value="extranjero"> Extranjero
+        <br><br>
+        <button type="button" onclick="calcularPrecio()">Calcular Precio</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="back.js"></script>
+</body>
+</html>
