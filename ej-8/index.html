@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas</title>
+</head>
+<body>
+
+    <h1>Cuadrado</h1>
+    <form id="entradasForm">
+        <label for="numero">A = </label>
+        <input type="number" id="ladoC1" name="ladoC1" required>
+        <label for="numero">x </label>
+        <input type="number" id="ladoC2" name="ladoC2" required>
+        <br><br>
+        <button type="button" onclick="calcularAC()">Calcular</button>
+    </form>
+
+    <p id="resultadoCAC"></p>
+
+    <h1>Rectángulo</h1>
+    <form id="entradasForm">
+        <label for="numero">A =  </label>
+        <input type="number" id="baseR" name="baseR" required>
+        <label for="numero">x </label>
+        <input type="number" id="alturaR" name="alturaR" required>
+        <br><br>
+        <button type="button" onclick="calcularAR()">Calcular</button>
+    </form>
+
+    <p id="resultadoCAR"></p>
+
+    <h1>Triángulo</h1>
+    <form id="entradasForm">
+        <label for="numero">A =  </label>
+        <input type="number" id="baseT" name="baseT" required>
+        <label for="numero">x </label>
+        <input type="number" id="alturaT" name="alturaT" required>
+        <br><br>
+        <button type="button" onclick="calcularAT()">Calcular</button>
+    </form>
+
+    <p id="resultadoCAT"></p>
+
+    <h1>Paralelogramo</h1>
+    <form id="entradasForm">
+        <label for="numero">A =  </label>
+        <input type="number" id="baseP" name="baseP" required>
+        <label for="numero">x </label>
+        <input type="number" id="alturaP" name="alturaP" required>
+        <br><br>
+        <button type="button" onclick="calcularAPa()">Calcular</button>
+    </form>
+
+    <p id="resultadoCAPa"></p>
+
+    <h1>Círculo</h1>
+    <form id="entradasForm">
+        <label for="numero">A =  </label>
+        <input type="number" id="radio" name="radio" required>
+        <br><br>
+        <button type="button" onclick="calcularACi()">Calcular</button>
+
+    </form>
+
+    <p id="resultadoCACi"></p>
+    
+    <h1>Trapecio</h1>
+
+    <form id="entradasForm">
+        <label for="numero">A =  </label>
+        <input type="number" id="baseMayor" name="baseMayor" required>
+        <label for="numero">x </label>
+        <input type="number" id="baseMenor" name="baseMenor" required>
+        <label for="numero">x </label>
+        <input type="number" id="alturaTra" name="alturaTra" required>
+        <br><br>
+        <button type="button" onclick="calcularATra()">Calcular</button>
+    </form>
+
+    <p id="resultadoCATra"></p>
+
+    <h1>Polígono Regular</h1>
+    <form id="entradasForm">
+        <label for="numero">A =  </label>
+        <input type="number" id="perimetro" name="perimetro" required>
+        <label for="numero">x </label>
+        <input type="number" id="apotema" name="apotema" required>
+        <br><br>
+        <button type="button" onclick="calcularAP()">Calcular</button>
+    </form>
+
+    <p id="resultadoCAP"></p>
+
+    <script src="back.js"></script>
+</body>
+</html>
